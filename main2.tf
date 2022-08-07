@@ -1,7 +1,6 @@
 
 provider "aws" {
   region     = "us-east-2"
-  profile = "default"
 }
 
 # This will store the statefile in s3 bucket
